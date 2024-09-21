@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let palabra = 'JavaScript';
+        document.write('La palabra es:' ,palabra);
+        document.write('<br>');
+
+        //ver tamnaño de un texto
+        document.write('<br>');
+        document.write('cantidad de letras: ',palabra.length);
+        document.write('<br>');
+        
+        //ver caracteres especificos en un texto
+        document.write('primeras cuatro letras: ',palabra.slice(2,4));
+        document.write('<br>');
+
+        //ver caracteres especificos en un texto
+        document.write('primeras cuatro letras: ',palabra.substring(0,5));
+        document.write('<br>');
+
+        //cambiar valores en un texto
+        let saludo = 'Hola mundo';
+        saludo = saludo.replace('hola', 'Adios');
+        document.write(saludo);
+
+        //poner en mayusculas
+        document.write('en mayusculas: ',palabra.toUpperCase());
+        document.write('<br>');
+
+        //poner en minusculas
+        document.write('en minusculas: ',palabra.toLowerCase());
+        document.write('<br>');
+
+        //Unir texto
+        let palabra2 = 'curso de ';
+        document.write('unir palabras: ',palabra2.concat(palabra));
+        document.write('<br>');
+
+        //acortar espacios entre textos
+        let palabra3 = '      Hola    ';
+        document.write(palabra3);
+        document.write('<br>');
+        document.write(palabra3.trimStart());
+        document.write('<br>');
+        document.write(palabra3.trimEnd());
+        document.write('<br>');
+        document.write(palabra3.trim());
+        document.write('<br>');
+        document.write('<br>');
+
+        //cortar cantidad de caracteres
+        document.write(palabra.split('Java'));
+        document.write('<br>');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+    
+</body>
+</html>
